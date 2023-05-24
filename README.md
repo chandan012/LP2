@@ -8,3 +8,10 @@ git clone https://github.com/GoogleCloudPlatform/python-docs-samples
 dev_appserver.py app.yml
 Ctrl + C .
 gcloud app deploy
+
+
+app engine in sdk
+gcloud auth login
+gcloud config set project <project-id>
+ gcloud components install app-engine-python
+ gcloud app create
